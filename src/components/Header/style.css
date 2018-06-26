@@ -20,6 +20,11 @@
     .dashHeader .dashHeaderActions .material-icons {
       font-size: 40px;
       color: #098bb7; }
+    .dashHeader .dashHeaderActions span {
+      margin: 10px;
+      font-size: 15px;
+      color: #098bb7;
+      font-weight: bolder; }
   .dashHeader .dashHeaderSearch {
     display: flex;
     margin-left: 25%; }
