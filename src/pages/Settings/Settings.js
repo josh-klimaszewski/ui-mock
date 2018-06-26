@@ -2,11 +2,11 @@ import React from 'react';
 import Header from '../../components/Header';
 import Nav from '../../components/Nav';
 import './style.css';
-const Dashboard = () => {
+const Settings = () => {
     return (
         <div>
-            [dashboard]
+            [Settings]
         </div>
     )
 }
-export default Dashboard;
+export default Settings;
