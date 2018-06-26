@@ -1,0 +1,16 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  width: 200px;
+  border: 1px solid black; }
+  .nav-bar .links {
+    margin-top: 10px; }
+    .nav-bar .links div {
+      padding: 10px; }
+    .nav-bar .links a {
+      text-decoration: none;
+      color: black; }
+  .nav-bar .settings {
+    margin-bottom: 60px; }

@@ -2,11 +2,15 @@ import React from 'react';
 import Header from '../../components/Header';
 import Nav from '../../components/Nav';
 import './style.css';
-const Dashboard = () => {
+const Reports = () => {
     return (
         <div>
-            [dashboard]
+            <Header />
+            <div className="content">
+                <Nav />
+                [Reports]
+            </div>
         </div>
     )
 }
-export default Dashboard;
+export default Reports;
