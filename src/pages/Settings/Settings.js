@@ -5,11 +5,7 @@ import './style.css';
 const Settings = () => {
     return (
         <div>
-            <Header />
-            <div className="content">
-                <Nav />
-                [Settings]
-            </div>
+            [Settings]
         </div>
     )
 }

@@ -5,12 +5,8 @@ import './style.css';
 const ConnectedApps = () => {
     return (
         <div>
-            <Header />
-            <div className="content">
-                <Nav />
-                [ConnectedApps]
-            </div>
-        </div>
+        [Connected Apps]
+    </div>
     )
 }
 export default ConnectedApps;

@@ -19,12 +19,24 @@ class Nav extends Component {
                     <div>
                         <Link to="/invoices">Invoices</Link>
                     </div>
-                    <div>Pay Bills</div>
-                    <div>Accounting</div>
-                    <div>Reports</div>
-                    <div>Connected Apps</div>
+                    <div>
+                        <Link to="/paybills">Pay Bills</Link>
+                    </div>
+                    <div>
+                        <Link to="/accounting">Accounting</Link>
+                    </div>
+                    <div>
+                        <Link to="/reports">Reports</Link>
+                    </div>
+                    <div>
+                        <Link to="/connectedapps">Connected Apps</Link>
+                    </div>
                 </div>
-                <div className="settings">Settings</div>
+                <div className="settings">
+                    <div>
+                        <Link to="/settings">Settings</Link>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -5,11 +5,7 @@ import './style.css';
 const Reports = () => {
     return (
         <div>
-            <Header />
-            <div className="content">
-                <Nav />
-                [Reports]
-            </div>
+            [Reports]
         </div>
     )
 }

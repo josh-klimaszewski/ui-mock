@@ -5,11 +5,7 @@ import './style.css';
 const Accounting = () => {
     return (
         <div>
-            <Header />
-            <div className="content">
-                <Nav />
-                [Accounting]
-            </div>
+            [Accounting]
         </div>
     )
 }

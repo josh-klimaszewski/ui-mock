@@ -5,11 +5,7 @@ import './style.css';
 const PayBills = () => {
     return (
         <div>
-            <Header />
-            <div className="content">
-                <Nav />
-                [PayBills]
-            </div>
+            [Pay Bills]
         </div>
     )
 }
