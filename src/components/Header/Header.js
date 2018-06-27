@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './customerLogo/sally_dogwalker_logo.png';
 import './style.css';
 
 class Header extends Component {
@@ -6,7 +7,7 @@ class Header extends Component {
         return (
             <div className='dashHeader'>
                 <div className='dashHeaderCompany'>
-                    <img src='Header/customerLogo/sally_dogwalker_logo.png' alt='Sally the Dog Walker' />
+                    <img className='sallyLogo' src={logo} alt='Sally the Dog Walker' />
                 </div>
                 <div className='dashHeaderActions'>
                     <i className="material-icons">add_circle</i>
@@ -19,4 +20,5 @@ class Header extends Component {
         )
     };
 }
+
 export default Header;
