@@ -11,21 +11,41 @@
         flex-direction: column;
         margin-top: 10px;
         div {
-            padding: 10px;
             display: flex;
-            align-content: center;
+            align-items: center;
             margin: 10px;
+            justify-content: flex-start;
+            margin-top: 15px;
+            .material-icons {
+                margin-left: 15px;
+            }
+            .md-dark {
+                 color: rgba(0, 0, 0, 0.70);
+            }
+            .md-dark.md-inactive {
+                 color: rgba(0, 0, 0, 0.26); 
+            }
+            .md-light {
+                 color: rgba(255, 255, 255, 1); 
+            }
+            .md-light.md-inactive {
+                 color: rgba(255, 255, 255, 0.3); 
+            }
         }
         a {
             text-decoration: none;
-            color: black;
+            margin-left: 20px;
         }
     }
+    
     .settings {
         margin-bottom: 60px;
-        a {
+        .material-icons.md-dark.md-inactive {
+            margin-left: 15px;
+        }
+        a.md-dark.md-inactive {
             text-decoration: none;
-            color: black;
+            margin-left: 20px;
         }
     }
 }

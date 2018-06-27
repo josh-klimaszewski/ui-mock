@@ -11,15 +11,28 @@
     flex-direction: column;
     margin-top: 10px; }
     .nav-bar .links div {
-      padding: 10px;
       display: flex;
-      align-content: center;
-      margin: 10px; }
+      align-items: center;
+      margin: 10px;
+      justify-content: flex-start;
+      margin-top: 15px; }
+      .nav-bar .links div .material-icons {
+        margin-left: 15px; }
+      .nav-bar .links div .md-dark {
+        color: rgba(0, 0, 0, 0.7); }
+      .nav-bar .links div .md-dark.md-inactive {
+        color: rgba(0, 0, 0, 0.26); }
+      .nav-bar .links div .md-light {
+        color: white; }
+      .nav-bar .links div .md-light.md-inactive {
+        color: rgba(255, 255, 255, 0.3); }
     .nav-bar .links a {
       text-decoration: none;
-      color: black; }
+      margin-left: 20px; }
   .nav-bar .settings {
     margin-bottom: 60px; }
-    .nav-bar .settings a {
+    .nav-bar .settings .material-icons.md-dark.md-inactive {
+      margin-left: 15px; }
+    .nav-bar .settings a.md-dark.md-inactive {
       text-decoration: none;
-      color: black; }
+      margin-left: 20px; }
