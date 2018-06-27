@@ -29,16 +29,24 @@ class InvoicesCard extends Component {
         // console.log(this.props)
         return (
             <Card className="card">
-                <CardContent>
+                <CardContent className="card-header">
                     Invoices
-                    <Divider />
                 </CardContent>
                 <List>
                     <Summary 
+                        className="summary"
                         primary="Coming Due"
                         amount={invoiceTotal}
                         renderExpanded={() => <InvoiceList invoices={this.props.invoices} />}
                     />
+                    <Divider />
+                    <Summary 
+                        className="summary"
+                        primary="Past Due"
+                        amount={5560}
+                        renderExpanded={() => <InvoiceList invoices={this.props.invoices} />}
+                    />
+                    <Divider />
                 </List>
             </Card>
         )
