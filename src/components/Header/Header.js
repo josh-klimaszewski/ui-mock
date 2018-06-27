@@ -6,7 +6,7 @@ class Header extends Component {
         return (
             <div className='dashHeader'>
                 <div className='dashHeaderCompany'>
-                    [autobooks customer]
+                    <img src='Header/customerLogo/sally_dogwalker_logo.png' alt='Sally the Dog Walker' />
                 </div>
                 <div className='dashHeaderActions'>
                     <i className="material-icons">add_circle</i>
