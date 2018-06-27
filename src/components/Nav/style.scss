@@ -18,19 +18,13 @@
             margin-top: 15px;
             .material-icons {
                 margin-left: 15px;
+                color: rgba(0, 0, 0, 0.26);
             }
-            .md-dark {
-                 color: rgba(0, 0, 0, 0.70);
+            a {
+                 color: rgba(0, 0, 0, 0.26);
             }
-            .md-dark.md-inactive {
-                 color: rgba(0, 0, 0, 0.26); 
-            }
-            .md-light {
-                 color: rgba(255, 255, 255, 1); 
-            }
-            .md-light.md-inactive {
-                 color: rgba(255, 255, 255, 0.3); 
-            }
+            
+            
         }
         a {
             text-decoration: none;
@@ -51,4 +45,8 @@
 }
 .active {
     background-color: lightskyblue;
+    color: rgba(0, 0, 0, 0.70); 
+    a, .material-icons {
+        color: rgba(0, 0, 0, 0.70); 
+    }
 }

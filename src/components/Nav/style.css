@@ -17,15 +17,10 @@
       justify-content: flex-start;
       margin-top: 15px; }
       .nav-bar .links div .material-icons {
-        margin-left: 15px; }
-      .nav-bar .links div .md-dark {
-        color: rgba(0, 0, 0, 0.7); }
-      .nav-bar .links div .md-dark.md-inactive {
+        margin-left: 15px;
         color: rgba(0, 0, 0, 0.26); }
-      .nav-bar .links div .md-light {
-        color: white; }
-      .nav-bar .links div .md-light.md-inactive {
-        color: rgba(255, 255, 255, 0.3); }
+      .nav-bar .links div a {
+        color: rgba(0, 0, 0, 0.26); }
     .nav-bar .links a {
       text-decoration: none;
       margin-left: 20px; }
@@ -38,4 +33,7 @@
       margin-left: 20px; }
 
 .active {
-  background-color: lightblue; }
+  background-color: lightskyblue;
+  color: rgba(0, 0, 0, 0.7); }
+  .active a, .active .material-icons {
+    color: rgba(0, 0, 0, 0.7); }
