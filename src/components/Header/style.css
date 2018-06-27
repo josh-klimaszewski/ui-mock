@@ -18,8 +18,9 @@
     margin: 10px;
     margin-left: 2%; }
     .dashHeader .dashHeaderActions .material-icons {
-      font-size: 40px;
-      color: #098bb7; }
+      font-size: 45px;
+      color: #098bb7;
+      font-weight: bold; }
     .dashHeader .dashHeaderActions span {
       margin: 10px;
       font-size: 15px;
