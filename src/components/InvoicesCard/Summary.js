@@ -18,12 +18,14 @@ class Summary extends Component {
         const { primary, amount, renderExpanded } = this.props;
         return(
             <Fragment>
-                <ListItem onClick={this.handleToggle}>
-                    <ListItemText 
-                        primary={primary}
-                    />
-                    ${amount}
-                    {this.state.open ? <ExpandLess /> : <ExpandMore />}
+                <ListItem className="list" onClick={this.handleToggle}>
+                    <div className="list-item">
+                        <ListItemText 
+                            primary={primary}
+                        />
+                        ${amount}
+                        {this.state.open ? <ExpandLess /> : <ExpandMore />}
+                    </div>
                     <Collapse in={this.state.open} timeout="auto" unmountOnExit={true}>
                         {renderExpanded && renderExpanded()}
                     </Collapse>
