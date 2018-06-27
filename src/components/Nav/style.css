@@ -36,3 +36,6 @@
     .nav-bar .settings a.md-dark.md-inactive {
       text-decoration: none;
       margin-left: 20px; }
+
+.active {
+  background-color: lightblue; }
