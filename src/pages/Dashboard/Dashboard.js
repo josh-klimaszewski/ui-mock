@@ -1,11 +1,21 @@
 import React from 'react';
-import Header from '../../components/Header';
-import Nav from '../../components/Nav';
 import './style.css';
+import { Divider, List } from '@material-ui/core';
+import InvoicesCard from '../../components/InvoicesCard';
+
 const Dashboard = () => {
     return (
-        <div>
-            [dashboard]
+        <div className="dashboard">
+            <div className="feed">
+                <div className="cards">
+                    <InvoicesCard>
+                        <List>
+                        </List>
+                    </InvoicesCard>
+                </div>
+            </div>
+            <div className="summary">
+            </div>
         </div>
     )
 }
