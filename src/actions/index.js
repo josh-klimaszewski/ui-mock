@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export const GET_INVOICES = 'GET_INVOICES';
+export const GET_NOTIFICATIONS = 'GET_NOTIFICATIONS';
 
 const ROOT_URL = 'https://cdn.contentful.com';
 const SPACE_ID = 'rei9f1q1h44r';
@@ -12,6 +13,15 @@ export function getInvoices() {
     );
     return {
         type: GET_INVOICES,
+        payload: request
+    }
+}
+export function getNotifications() {
+    const request = axios.get(
+    `${ROOT_URL}/spaces/${SPACE_ID}/entries?access_token=${CDN_ACCESS_TOKEN}&content_type=notifications`
+    );
+    return {
+        type: GET_NOTIFICATIONS,
         payload: request
     }
 }
