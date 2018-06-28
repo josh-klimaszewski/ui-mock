@@ -1,0 +1,15 @@
+.notifications {
+    
+    .notification {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        .message {
+            font-size: 14px;
+        }
+        .action {
+            font-size: 12px;
+        }
+    }
+}

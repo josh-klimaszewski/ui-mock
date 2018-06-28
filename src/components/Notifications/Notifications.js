@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getNotifications } from '../../actions';
+import Notification from './Notification';
 import './style.css';
 
 class Notifications extends Component {
@@ -14,9 +15,18 @@ class Notifications extends Component {
         this.props.getNotifications();
     }
     render() {
-        console.log(this.state);
+        
+        const notifications = this.props.notifications;
+        console.log(notifications);
         return (
-            <div>[notifications]</div>
+            <div className="notifications">
+            {notifications.map(notification => (
+                <Notification 
+                key={notification.fields.message}
+                message={notification.fields.message} 
+                action={notification.fields.action} />
+            ))}
+            </div>
         );
     }
 }

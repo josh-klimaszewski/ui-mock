@@ -3,14 +3,12 @@
   width: 85%;
   display: flex; }
   .dashboard .feed {
-    margin: 50px;
-    border: 1px solid black;
+    margin: 10px;
     width: 50%; }
     .dashboard .feed .cards {
-      border: 1px solid black;
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-between;
+      margin-bottom: 10px; }
   .dashboard .summary {
-    margin: 50px;
-    width: 50%;
-    border: 1px solid black; }
+    margin: 10px;
+    width: 50%; }
