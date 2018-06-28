@@ -19,7 +19,24 @@
     }
     .summary {
         margin: 10px;
-        width: 50%;
-        border: 1px solid black;
+        width: 25%;
+        
+        .summaryCard {
+            border: solid black 1px;
+            display: flex;
+            flex-direction: column;
+            
+            .totalCashWrapper {
+                margin: 10px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .bar {
+                margin: 25px auto 0 auto;
+                width: 85%;
+
+            }
+        }
     }
 }
