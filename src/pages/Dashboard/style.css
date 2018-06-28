@@ -4,13 +4,20 @@
   display: flex; }
   .dashboard .feed {
     margin: 10px;
+<<<<<<< HEAD
     border: 1px solid black;
+=======
+>>>>>>> cd7b703373d156ef40ddd50d82154922fd95123d
     width: 50%; }
     .dashboard .feed .cards {
-      border: 1px solid black;
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-between;
+      margin-bottom: 10px; }
   .dashboard .summary {
     margin: 10px;
+<<<<<<< HEAD
     width: 50%;
     border: 1px solid black; }
+=======
+    width: 50%; }
+>>>>>>> cd7b703373d156ef40ddd50d82154922fd95123d

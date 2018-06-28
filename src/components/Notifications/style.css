@@ -1,0 +1,10 @@
+.notifications .notification {
+  margin-bottom: 10px; }
+  .notifications .notification .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .notifications .notification .main .message {
+      font-size: 14px; }
+    .notifications .notification .main .action {
+      font-size: 12px; }

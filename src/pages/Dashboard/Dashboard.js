@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import InvoicesCard from '../../components/InvoicesCard';
+import Notifications from '../../components/Notifications';
 
 const Dashboard = () => {
     return (
@@ -10,6 +11,7 @@ const Dashboard = () => {
                     <InvoicesCard />
                     <InvoicesCard />
                 </div>
+                <Notifications />
             </div>
             <div className="summary">
             </div>

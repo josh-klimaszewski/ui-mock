@@ -9,16 +9,17 @@
         border: 1px solid black;
         width: 50%;
         .cards {
-            border: 1px solid black;
+            
             
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+            margin-bottom: 10px;
             
         }
     }
     .summary {
         margin: 10px;
         width: 50%;
-        border: 1px solid black;
+        
     }
 }

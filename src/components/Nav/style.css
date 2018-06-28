@@ -11,6 +11,7 @@
     flex-direction: column;
     margin-top: 10px; }
     .nav-bar .links div {
+      padding: 5px;
       display: flex;
       align-items: center;
       margin: 10px;
@@ -18,9 +19,9 @@
       margin-top: 15px; }
       .nav-bar .links div .material-icons {
         margin-left: 15px;
-        color: rgba(0, 0, 0, 0.26); }
+        color: rgba(0, 0, 0, 0.7); }
       .nav-bar .links div a {
-        color: rgba(0, 0, 0, 0.26); }
+        color: rgba(0, 0, 0, 0.7); }
     .nav-bar .links a {
       text-decoration: none;
       margin-left: 20px; }

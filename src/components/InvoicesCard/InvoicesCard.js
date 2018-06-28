@@ -25,7 +25,7 @@ class InvoicesCard extends Component {
     }
     render() {
         const invoiceTotal = this.getInvoiceTotal();
-        console.log(invoiceTotal, this.props.invoices)
+        
         // console.log(this.props)
         return (
             <Card className="card">
