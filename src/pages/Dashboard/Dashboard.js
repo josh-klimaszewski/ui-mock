@@ -24,8 +24,8 @@ const Dashboard = () => {
                     </div>
                     <Divider />
                     <Progress className="bar" multi>
-                        <Progress bar color="info" value="85" />
-                        <Progress bar color="danger" value="15" />
+                        <Progress bar color="info" value="75" />
+                        <Progress bar color="danger" value="25" />
                     </Progress>
                 </div>
             </div>
