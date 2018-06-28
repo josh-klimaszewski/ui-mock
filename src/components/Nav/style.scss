@@ -11,6 +11,7 @@
         flex-direction: column;
         margin-top: 10px;
         div {
+            padding: 5px;
             display: flex;
             align-items: center;
             margin: 10px;
@@ -18,13 +19,11 @@
             margin-top: 15px;
             .material-icons {
                 margin-left: 15px;
-                color: rgba(0, 0, 0, 0.26);
+                color: rgba(0, 0, 0, 0.70);
             }
             a {
-                 color: rgba(0, 0, 0, 0.26);
+                 color: rgba(0, 0, 0, 0.70);
             }
-            
-            
         }
         a {
             text-decoration: none;

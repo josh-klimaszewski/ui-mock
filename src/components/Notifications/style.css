@@ -1,9 +1,10 @@
 .notifications .notification {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 10px; }
-  .notifications .notification .message {
-    font-size: 14px; }
-  .notifications .notification .action {
-    font-size: 12px; }
+  .notifications .notification .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .notifications .notification .main .message {
+      font-size: 14px; }
+    .notifications .notification .main .action {
+      font-size: 12px; }

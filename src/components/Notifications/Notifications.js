@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getNotifications } from '../../actions';
 import Notification from './Notification';
+import NotificationExpanded from './NotificationExpanded';
 import './style.css';
 
 class Notifications extends Component {
@@ -24,7 +25,9 @@ class Notifications extends Component {
                 <Notification 
                 key={notification.fields.message}
                 message={notification.fields.message} 
-                action={notification.fields.action} />
+                action={notification.fields.action} 
+                renderExpanded={() => <NotificationExpanded notification={notification} />}
+                />
             ))}
             </div>
         );
