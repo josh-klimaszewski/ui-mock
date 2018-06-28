@@ -3,7 +3,7 @@
   width: 85%;
   display: flex; }
   .dashboard .feed {
-    margin: 50px;
+    margin: 10px;
     border: 1px solid black;
     width: 50%; }
     .dashboard .feed .cards {
@@ -11,6 +11,6 @@
       display: flex;
       justify-content: space-around; }
   .dashboard .summary {
-    margin: 50px;
+    margin: 10px;
     width: 50%;
     border: 1px solid black; }
