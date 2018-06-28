@@ -4,7 +4,6 @@
   display: flex; }
   .dashboard .feed {
     margin: 10px;
-    border: 1px solid black;
     width: 50%; }
     .dashboard .feed .cards {
       display: flex;
@@ -12,9 +11,10 @@
       margin-bottom: 10px; }
   .dashboard .summary {
     margin: 10px;
-    width: 25%; }
+    width: 25%;
+    background-color: white;
+    height: 15%; }
     .dashboard .summary .summaryCard {
-      border: solid black 1px;
       display: flex;
       flex-direction: column; }
       .dashboard .summary .summaryCard .totalCashWrapper {

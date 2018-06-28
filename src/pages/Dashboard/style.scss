@@ -6,7 +6,6 @@
 
     .feed {
         margin: 10px;
-        border: 1px solid black;
         width: 50%;
         .cards {
             
@@ -20,9 +19,9 @@
     .summary {
         margin: 10px;
         width: 25%;
-        
+        background-color: white;
+        height: 15%;
         .summaryCard {
-            border: solid black 1px;
             display: flex;
             flex-direction: column;
             
