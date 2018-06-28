@@ -4,6 +4,7 @@
   display: flex; }
   .dashboard .feed {
     margin: 10px;
+    border: 1px solid black;
     width: 50%; }
     .dashboard .feed .cards {
       display: flex;
@@ -11,9 +12,5 @@
       margin-bottom: 10px; }
   .dashboard .summary {
     margin: 10px;
-
-    width: 50%;
-
     width: 50%;
     border: 1px solid black; }
-
