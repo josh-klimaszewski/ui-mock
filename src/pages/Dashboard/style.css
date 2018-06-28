@@ -1,2 +1,16 @@
-.dashboard .feed {
-  margin: 50px; }
+.dashboard {
+  background-color: lightgray;
+  width: 85%;
+  display: flex; }
+  .dashboard .feed {
+    margin: 50px;
+    border: 1px solid black;
+    width: 50%; }
+    .dashboard .feed .cards {
+      border: 1px solid black;
+      display: flex;
+      justify-content: space-around; }
+  .dashboard .summary {
+    margin: 50px;
+    width: 50%;
+    border: 1px solid black; }

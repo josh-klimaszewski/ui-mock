@@ -8,6 +8,7 @@ const Dashboard = () => {
             <div className="feed">
                 <div className="cards">
                     <InvoicesCard />
+                    <InvoicesCard />
                 </div>
             </div>
             <div className="summary">

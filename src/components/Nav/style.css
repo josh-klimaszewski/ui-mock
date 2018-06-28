@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 90vh;
-  width: 200px;
+  width: 15%;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.12), -2px 2px 3px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .nav-bar .links {
@@ -33,4 +33,7 @@
       margin-left: 20px; }
 
 .active {
-  background-color: lightskyblue; }
+  background-color: lightskyblue;
+  color: rgba(0, 0, 0, 0.7); }
+  .active a, .active .material-icons {
+    color: rgba(0, 0, 0, 0.7); }
