@@ -26,7 +26,11 @@
       text-decoration: none;
       margin-left: 20px; }
   .nav-bar .settings {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: flex-start; }
     .nav-bar .settings .material-icons.md-dark.md-inactive {
       margin-left: 15px; }
     .nav-bar .settings a.md-dark.md-inactive {

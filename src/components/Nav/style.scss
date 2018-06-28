@@ -33,6 +33,10 @@
     
     .settings {
         margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        justify-content: flex-start;
         .material-icons.md-dark.md-inactive {
             margin-left: 15px;
         }
