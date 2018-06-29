@@ -20,6 +20,13 @@ class InvoicesCard extends Component {
         const invoices = this.props.invoices;
         return invoices.reduce((total, current) =>  total + current.fields.amount, 0)
     }
+    // getINvoiceTotalTwo = () => {
+    //     let total = 0;
+    //     this.props.invoices.forEach(invoice => {
+    //         total += invoice.fields.amount;
+    //     })
+    //     return total;
+    // }
     componentDidMount() {
         this.props.getInvoices(); 
     }
