@@ -27,16 +27,16 @@
     margin-left: 2%; }
     .dashHeader .dashHeaderActions .material-icons {
       font-size: 45px;
-      color: #098bb7;
+      color: #008aad;
       font-weight: bold; }
     .dashHeader .dashHeaderActions span {
       margin: 10px;
       font-size: 15px;
-      color: #098bb7;
+      color: #008aad;
       font-weight: bolder; }
   .dashHeader .dashHeaderSearch {
     display: flex;
     margin-left: 25%; }
     .dashHeader .dashHeaderSearch .material-icons {
       font-size: 40px;
-      color: #098bb7; }
+      color: #008aad; }

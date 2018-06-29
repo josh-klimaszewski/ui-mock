@@ -1,3 +1,5 @@
+$hoverblue: #def2f8;
+
 .nav-bar {
     display: flex;
     flex-direction: column;
@@ -18,16 +20,13 @@
             justify-content: space-between;
             text-decoration: none;
             color: rgba(0, 0, 0, 0.50);
-            i {
-                // margin-right: 20px;
-            }
         }
         a:hover {
-            background-color: lightskyblue;
+            background-color: $hoverblue;
             color: rgba(0, 0, 0, 0.75);
         }
         .active {
-            background-color: lightskyblue;
+            background-color: $hoverblue;
             color: rgba(0, 0, 0, 1); 
             .material-icons {
                 color: rgba(0, 0, 0, 1); 

@@ -19,10 +19,10 @@
       text-decoration: none;
       color: rgba(0, 0, 0, 0.5); }
     .nav-bar .links a:hover {
-      background-color: lightskyblue;
+      background-color: #def2f8;
       color: rgba(0, 0, 0, 0.75); }
     .nav-bar .links .active {
-      background-color: lightskyblue;
+      background-color: #def2f8;
       color: black; }
       .nav-bar .links .active .material-icons {
         color: black; }

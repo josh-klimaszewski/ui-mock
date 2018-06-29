@@ -1,3 +1,5 @@
+$blue: #008aad;
+
 .dashHeader {
     display: flex;
     flex-direction: row;
@@ -33,14 +35,14 @@
         
         .material-icons {
             font-size: 45px;
-            color: #098bb7;
+            color: $blue;
             font-weight: bold;
         }
 
         span {
             margin: 10px;
             font-size: 15px;
-            color: #098bb7;
+            color: $blue;
             font-weight: bolder;
         }
     }
@@ -51,7 +53,7 @@
 
         .material-icons {
             font-size: 40px;
-            color: #098bb7;
+            color: $blue;
         }
     }
 }
