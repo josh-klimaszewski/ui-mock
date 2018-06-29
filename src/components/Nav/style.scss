@@ -1,4 +1,5 @@
 $hoverblue: #def2f8;
+$activeblue: #003a5d;
 
 .nav-bar {
     display: flex;
@@ -23,13 +24,13 @@ $hoverblue: #def2f8;
         }
         a:hover {
             background-color: $hoverblue;
-            color: rgba(0, 0, 0, 0.75);
+            color: $activeblue;
         }
         .active {
             background-color: $hoverblue;
-            color: rgba(0, 0, 0, 1); 
+            color: $activeblue; 
             .material-icons {
-                color: rgba(0, 0, 0, 1); 
+                color: $activeblue;
             }
         }
     }
