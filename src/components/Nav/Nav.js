@@ -24,35 +24,35 @@ class Nav extends Component {
               <i className="material-icons md-dark">dashboard</i>
               Dashboard
             </Link>
-            <Link to="/" 
+            <Link to="/invoices" 
             className={this.state.activeNav === "invoices" ? "active" : ""}
             onClick={() => this.setActiveNav("invoices")}
             >
               <i className="material-icons md-dark">receipt</i>
               Invoices
             </Link>
-            <Link to="/" 
+            <Link to="/paybills" 
             className={this.state.activeNav === "paybills" ? "active" : ""}
             onClick={() => this.setActiveNav("paybills")}
             >
               <i className="material-icons md-dark">credit_card</i>
               Pay Bills
             </Link>
-            <Link to="/" 
+            <Link to="/accounting" 
             className={this.state.activeNav === "accounting" ? "active" : ""}
             onClick={() => this.setActiveNav("accounting")}
             >
               <i className="material-icons md-dark">assessment</i>
               Accounting
             </Link>
-            <Link to="/" 
+            <Link to="/reports" 
             className={this.state.activeNav === "reports" ? "active" : ""}
             onClick={() => this.setActiveNav("reports")}
             >
               <i className="material-icons md-dark">subject</i>
               Reports
             </Link>
-            <Link to="/" 
+            <Link to="connectedapps/" 
             className={this.state.activeNav === "connectedapps" ? "active" : ""}
             onClick={() => this.setActiveNav("connectedapps")}
             >
@@ -62,9 +62,8 @@ class Nav extends Component {
             <figure className="gap" />
             <figure className="gap" />
             <figure className="gap" />
-            <figure className="gap" />
-            <figure className="gap" />
-            <Link to="/" 
+            
+            <Link to="/settings" 
             className={this.state.activeNav === "settings" ? "active" : ""}
             onClick={() => this.setActiveNav("settings")}
             >
