@@ -59,7 +59,7 @@ class Nav extends Component {
               <i className="material-icons md-dark">device_hub</i>
               Connected Apps
             </Link>
-            <figure className="gap" />
+            {/* <figure className="gap" /> */}
             <figure className="gap" />
             <figure className="gap" />
             
