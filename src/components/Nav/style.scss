@@ -10,49 +10,29 @@
         display: flex;
         flex-direction: column;
         margin-top: 10px;
-        // a {
-        //     padding: 5px;
-        //     display: flex;
-        //     align-items: center;
-        //     margin: 10px;
-        //     justify-content: flex-start;
-        //     margin-top: 15px;
-        // }
-        div, figure {
-            padding: 5px;
+        a, figure {
+            padding: 20px;
             display: flex;
             align-items: center;
             margin: 10px;
-            justify-content: flex-start;
-            margin-top: 15px;
-            .material-icons {
-                margin-left: 15px;
-                color: rgba(0, 0, 0, 0.70);
+            justify-content: space-between;
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.50);
+            i {
+                // margin-right: 20px;
             }
-            a {
-                 color: rgba(0, 0, 0, 0.70);
-                 text-decoration: none;
-                 margin-left: 20px;
-            }
-            
         }
-        
-        
-       
-    }
-    
-   
-}
-.links div:hover {
-    
-    background-color: lightskyblue;
-    color: rgba(0, 0, 0, 0.70); 
-    
-}
-.active {
-    background-color: lightskyblue;
-    color: rgba(0, 0, 0, 0.70); 
-    a, .material-icons {
-        color: rgba(0, 0, 0, 0.70); 
+        a:hover {
+            background-color: lightskyblue;
+            color: rgba(0, 0, 0, 0.75);
+        }
+        .active {
+            background-color: lightskyblue;
+            color: rgba(0, 0, 0, 1); 
+            .material-icons {
+                color: rgba(0, 0, 0, 1); 
+            }
+        }
     }
 }
+

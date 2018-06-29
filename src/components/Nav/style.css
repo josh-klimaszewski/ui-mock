@@ -10,27 +10,19 @@
     display: flex;
     flex-direction: column;
     margin-top: 10px; }
-    .nav-bar .links div, .nav-bar .links figure {
-      padding: 5px;
+    .nav-bar .links a, .nav-bar .links figure {
+      padding: 20px;
       display: flex;
       align-items: center;
       margin: 10px;
-      justify-content: flex-start;
-      margin-top: 15px; }
-      .nav-bar .links div .material-icons, .nav-bar .links figure .material-icons {
-        margin-left: 15px;
-        color: rgba(0, 0, 0, 0.7); }
-      .nav-bar .links div a, .nav-bar .links figure a {
-        color: rgba(0, 0, 0, 0.7);
-        text-decoration: none;
-        margin-left: 20px; }
-
-.links div:hover {
-  background-color: lightskyblue;
-  color: rgba(0, 0, 0, 0.7); }
-
-.active {
-  background-color: lightskyblue;
-  color: rgba(0, 0, 0, 0.7); }
-  .active a, .active .material-icons {
-    color: rgba(0, 0, 0, 0.7); }
+      justify-content: space-between;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.5); }
+    .nav-bar .links a:hover {
+      background-color: lightskyblue;
+      color: rgba(0, 0, 0, 0.75); }
+    .nav-bar .links .active {
+      background-color: lightskyblue;
+      color: black; }
+      .nav-bar .links .active .material-icons {
+        color: black; }
