@@ -29,6 +29,7 @@ $activeblue: #003a5d;
         .active {
             background-color: $hoverblue;
             color: $activeblue; 
+            font-weight: bolder;
             .material-icons {
                 color: $activeblue;
             }

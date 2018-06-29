@@ -23,6 +23,7 @@
       color: #003a5d; }
     .nav-bar .links .active {
       background-color: #def2f8;
-      color: #003a5d; }
+      color: #003a5d;
+      font-weight: bolder; }
       .nav-bar .links .active .material-icons {
         color: #003a5d; }
