@@ -20,9 +20,9 @@
       color: rgba(0, 0, 0, 0.5); }
     .nav-bar .links a:hover {
       background-color: #def2f8;
-      color: rgba(0, 0, 0, 0.75); }
+      color: #003a5d; }
     .nav-bar .links .active {
       background-color: #def2f8;
-      color: black; }
+      color: #003a5d; }
       .nav-bar .links .active .material-icons {
-        color: black; }
+        color: #003a5d; }
