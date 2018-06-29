@@ -78,11 +78,11 @@ class Nav extends Component {
               Connected Apps
             </Link>
           </div>
-          <div className="gap" />
-          <div className="gap" />
-          <div className="gap" />
-          <div className="gap" />
-          <div className="gap" />
+          <figure className="gap" />
+          <figure className="gap" />
+          <figure className="gap" />
+          <figure className="gap" />
+          <figure className="gap" />
           <div
             className={this.state.activeNav === "settings" ? "active" : ""}
             onClick={() => this.setActiveNav("settings")}

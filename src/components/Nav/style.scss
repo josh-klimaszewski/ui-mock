@@ -18,7 +18,7 @@
         //     justify-content: flex-start;
         //     margin-top: 15px;
         // }
-        div {
+        div, figure {
             padding: 5px;
             display: flex;
             align-items: center;
@@ -34,12 +34,20 @@
                  text-decoration: none;
                  margin-left: 20px;
             }
+            
         }
+        
         
        
     }
     
    
+}
+.links div:hover {
+    
+    background-color: lightskyblue;
+    color: rgba(0, 0, 0, 0.70); 
+    
 }
 .active {
     background-color: lightskyblue;
